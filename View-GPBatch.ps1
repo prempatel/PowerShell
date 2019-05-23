@@ -1,4 +1,5 @@
-﻿[void][Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic')
+#Check status of batch from Microsoft Dynamics Great PLains
+[void][Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic')
 
 $batchnumber = [Microsoft.VisualBasic.Interaction]::InputBox("Enter Batch Number", "Release Batch")
 while([string]::IsNullOrWhitespace($batchnumber)){
