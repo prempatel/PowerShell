@@ -1,4 +1,4 @@
-﻿#Set DHCP Scope Option 67 (bootfile name) depending if PC is BIOS/UEFI
+﻿#Set DHCP Scope Option 67 (bootfile name) depending if PC is BIOS/UEFI for MDT deployments
 
 [int]$choice = 0
 while ( $choice -lt 1 -or $choice -gt 2 ) {
